@@ -1,13 +1,13 @@
 <?php
     // Klassendefinition
-    class write2Influx extends IPSModule {
+    class ModulnameXYZ extends IPSModule {
 
-		public function write2Influx($id, $host, $port, $db, $system, $category, $valuename)
+		public function ModulnameXYZ($id, $host, $port, $db, $system, $category, $valuename)
 		{
 		$out ='http://'.$host.':'.$port.'/write?db='.$db.'';
 
 		$ch = curl_init($out);
-		 
+
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1 );
 		curl_setopt($ch, CURLOPT_POST,           1 );
 
@@ -39,10 +39,10 @@
 		break;
 
 		}
-		 
+
 		$result=curl_exec ($ch);
 		$error=curl_error($ch) ;
-		 
+
 		echo $result ;
 		echo $error ;
 		//echo $system.','.$category.'='.$valuename.' value=' .  number_format($floatvalue/1,1,'.','');
