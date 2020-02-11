@@ -2,9 +2,9 @@
     "id": "{E03767C6-5BCA-27E3-25E9-349D1C6D2EE9}",
     "author": "KC",
     "name": "influxwriter",
-    "url": "http://www.kenner-consulting.de",
+    "url": "www.kenner-consulting.de",
     "compatibility": {
-        "version": "5.0"
+        "version": "4.2"
     },
     "version": "1.0",
     "build": 0,
