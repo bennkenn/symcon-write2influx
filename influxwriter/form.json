@@ -1,0 +1,18 @@
+{
+    "elements":
+    [
+        { "type": "ValidationTextBox", "name": "influxDbServerIP", "caption": "influxDbServerIP" },
+        
+        ]}
+    ],
+    "actions":
+    [
+        //{ "type": "ValidationTextBox", "name": "Number", "caption": "Number" },
+        
+    ],
+    "status":
+    [
+        //{ "code": 102, "icon": "active", "caption": "Login information valid" },
+        
+    ]
+}
