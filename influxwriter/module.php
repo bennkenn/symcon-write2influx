@@ -18,7 +18,7 @@
             parent::ApplyChanges();
 
             $this->SetValue("SymconVersion", IPS_GetKernelVersion());
-            $this->SetValue("influxDbServerIP", "192.168.78.55");
+            //$this->SetValue("influxDbServerIP", "192.168.78.55");
 
             
         }
