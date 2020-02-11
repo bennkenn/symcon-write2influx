@@ -7,7 +7,7 @@
             // Diese Zeile nicht löschen.
             parent::Create();
             $this->RegisterVariableString("influxDbIP", "influxDB IP");
-            $this->RegisterVariableString("influxDbname", "influxDB Name")
+            $this->RegisterVariableString("influxDbname", "influxDB Name");
         }
 
         // Überschreibt die intere IPS_ApplyChanges($id) Funktion
