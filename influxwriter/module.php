@@ -6,8 +6,10 @@
         public function Create() {
             // Diese Zeile nicht löschen.
             parent::Create();
-            $this->RegisterVariableString("influxDbIP", "influxDB IP");
-            $this->RegisterVariableString("influxDbname", "influxDB Name");
+            $this->RegisterVariableString("SymconVersion", "Symcon Version IP");
+            $this->RegisterPropertyString("influxDbServerIP", "192.168.78.55");
+            $this->RegisterPropertyString("influxDbServerPort", "8086");
+            $this->RegisterPropertyString("influxDbServerDB", "symcon");   
         }
 
         // Überschreibt die intere IPS_ApplyChanges($id) Funktion
@@ -15,8 +17,8 @@
             // Diese Zeile nicht löschen
             parent::ApplyChanges();
 
-            $this->SetValue("influxDbIP", IPS_GetKernelVersion());
-            $this->SetValue("influxDbname", IPS_GetKernelVersion());
+            $this->SetValue("SymconVersion", IPS_GetKernelVersion());
+            
         }
 
         /**
