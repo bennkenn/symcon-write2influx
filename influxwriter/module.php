@@ -9,7 +9,8 @@
             $this->RegisterVariableString("SymconVersion", "Symcon Version");
             $this->RegisterPropertyString("influxDbServerIP", "");
             $this->RegisterPropertyString("influxDbServerPort", "8086");
-            $this->RegisterPropertyString("influxDbServerDB", "symcon");   
+            $this->RegisterPropertyString("influxDbServerDB", "symcon");
+            $this->RegisterPropertyBoolean("EmulateStatus", false);   
         }
 
         // Überschreibt die intere IPS_ApplyChanges($id) Funktion
@@ -17,7 +18,7 @@
             // Diese Zeile nicht löschen
             parent::ApplyChanges();
 
-            $this->SetValue("SymconVersion", IPS_GetKernelVersion());
+            //$this->SetValue("SymconVersion", IPS_GetKernelVersion());
             //$this->SetValue("influxDbServerIP", "192.168.78.55");
 
             
