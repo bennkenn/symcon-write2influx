@@ -30,10 +30,7 @@
         * ABC_MeineErsteEigeneFunktion($id);
         *
         */
-        public function MeineErsteEigeneFunktion() {
-            // Selbsterstellter Code
-        }
-
+            
         public function write2Influx($id, $host, $port, $db, $system, $category, $valuename){
         $out ='http://'.$host.':'.$port.'/write?db='.$db.'';
 
