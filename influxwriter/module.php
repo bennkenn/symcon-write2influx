@@ -35,9 +35,9 @@
         //public function write2Influx($id, $host, $port, $db, $system, $category, $valuename){
         public function write2Influx($id, $system, $category, $valuename){
         
-        $host = IPS_GetProperty($this, "influxDbServerIP")
-        $port = IPS_GetProperty($this, "influxDbServerPort")
-        $db = $IPS_GetProperty($this, "influxDbServerDB")
+        $host = IPS_GetProperty($this, "influxDbServerIP");
+        $port = IPS_GetProperty($this, "influxDbServerPort");
+        $db = $IPS_GetProperty($this, "influxDbServerDB");
         
         $out ='http://'.$host.':'.$port.'/write?db='.$db.'';
 
