@@ -6,7 +6,7 @@
         public function Create() {
             // Diese Zeile nicht löschen.
             parent::Create();
-            $this->RegisterVariableString("SymconVersion", "Symcon Version IP");
+            $this->RegisterVariableString("SymconVersion", "Symcon Version");
             $this->RegisterPropertyString("influxDbServerIP", "192.168.78.55");
             $this->RegisterPropertyString("influxDbServerPort", "8086");
             $this->RegisterPropertyString("influxDbServerDB", "symcon");   
@@ -18,6 +18,8 @@
             parent::ApplyChanges();
 
             $this->SetValue("SymconVersion", IPS_GetKernelVersion());
+            $this->SetValue("influxDbServerIP", "192.168.78.55");
+
             
         }
 
