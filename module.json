@@ -5,8 +5,7 @@
     "vendor": "KC",
     "aliases":
     [
-        "Name1UnterstütztesGerät",
-        "Name2UnterstütztesGerät"
+        "Super write2influx module"
     ],
     "url": "https://www.symcon.de",
     "parentRequirements": [],
