@@ -1,13 +1,12 @@
 {
     "id": "{E03767C6-5BCA-27E3-25E9-349D1C6D2EE9}",
     "author": "KC",
-    "name": "ModulnameXYZ",
-    "url": "https://www.symcon.de",
+    "name": "influxwriter",
+    "url": "http://www.kenner-consulting.de",
     "compatibility": {
-        "version": "5.0",
-        "date": 1491343200
+        "version": "5.0"
     },
-    "version": "0.1",
+    "version": "1.0",
     "build": 0,
     "date": 0
 }
