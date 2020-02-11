@@ -1,7 +1,7 @@
 {
     "elements":
     [
-        { "type": "ValidationTextBox", "name": "influxDbServerIP", "caption": "influxDbServerIP" },
+        { "type": "ValidationTextBox", "name": "influxDbServerIP", "caption": "influxDbServerIP" }
         
         ]}
     ],
