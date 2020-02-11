@@ -1,8 +1,8 @@
 {
     "elements":
     [
-        { "type": "ValidationTextBox", "name": "influxDbServerIP", "caption": "influxDbServerIP" },
-        { "type": "ValidationTextBox", "name": "influxDbServerPort", "caption": "influxDbServerPort" },
-        { "type": "ValidationTextBox", "name": "influxDbServerDB", "caption": "influxDbServerDB" }
+        { "type": "ValidationTextBox", "name": "influxDbServerIP", "caption": "InfluxDB Server IP" },
+        { "type": "ValidationTextBox", "name": "influxDbServerPort", "caption": "InfluxDB Server Port" },
+        { "type": "ValidationTextBox", "name": "influxDbServerDB", "caption": "InfluxDB Database" }
     ]
 }
