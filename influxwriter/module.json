@@ -1,7 +1,7 @@
 {
     "id": "{E03767C6-5BCA-27E3-25E9-349D1C6D2EE9}",
     "name": "influxwriter",
-    "type": 1,
+    "type": 3,
     "vendor": "KC",
     "aliases":
     [
