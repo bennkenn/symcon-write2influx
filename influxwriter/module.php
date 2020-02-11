@@ -7,7 +7,7 @@
             // Diese Zeile nicht löschen.
             parent::Create();
             $this->RegisterVariableString("SymconVersion", "Symcon Version");
-            $this->RegisterPropertyString("influxDbServerIP", "192.168.78.55");
+            $this->RegisterPropertyString("influxDbServerIP", "");
             $this->RegisterPropertyString("influxDbServerPort", "8086");
             $this->RegisterPropertyString("influxDbServerDB", "symcon");   
         }
@@ -30,7 +30,7 @@
         * ABC_MeineErsteEigeneFunktion($id);
         *
         */
-            
+
         public function write2Influx($id, $host, $port, $db, $system, $category, $valuename){
         $out ='http://'.$host.':'.$port.'/write?db='.$db.'';
 
