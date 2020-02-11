@@ -6,13 +6,17 @@
         public function Create() {
             // Diese Zeile nicht löschen.
             parent::Create();
-
+            $this->RegisterVariableString("influxDbIP", "influxDB IP");
+            $this->RegisterVariableString("influxDbname", "influxDB Name")
         }
 
         // Überschreibt die intere IPS_ApplyChanges($id) Funktion
         public function ApplyChanges() {
             // Diese Zeile nicht löschen
             parent::ApplyChanges();
+
+            $this->SetValue("influxDbIP", IPS_GetKernelVersion());
+            $this->SetValue("influxDbname", IPS_GetKernelVersion());
         }
 
         /**
