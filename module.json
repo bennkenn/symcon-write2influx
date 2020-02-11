@@ -5,8 +5,7 @@
     "vendor": "ABC",
     "aliases":
     [
-        "Name1UnterstütztesGerät",
-        "Name2UnterstütztesGerät"
+        "Super influx writer"
     ],
     "url": "https://www.symcon.de",
     "parentRequirements": [],
