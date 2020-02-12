@@ -5,9 +5,9 @@
     "vendor": "KC",
     "aliases":
     [
-        "Super influx writer"
+        "InfluxDB writer module"
     ],
-    "url": "http://www.kenner-consulting.de",
+    "url": "https://github.com/bennkenn/symcon-write2influx",
     "parentRequirements": [],
     "childRequirements": [],
     "implemented": [],

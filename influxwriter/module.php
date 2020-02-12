@@ -10,7 +10,7 @@
             $this->RegisterPropertyString("influxDbServerIP", "192.168.78.55");
             $this->RegisterPropertyString("influxDbServerPort", "8086");
             $this->RegisterPropertyString("influxDbServerDB", "symcon");
-            //$this->RegisterPropertyBoolean("EmulateStatus", false);   
+               
         }
 
         // Überschreibt die intere IPS_ApplyChanges($id) Funktion
