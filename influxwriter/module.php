@@ -72,6 +72,15 @@
         //echo 'es war ein float ';
         break;
 
+        case 3:
+            $value = GetValueString($id) ;
+            //echo $value;
+            $intValue = intval($value);
+            //echo $intValue;
+            curl_setopt($ch, CURLOPT_POSTFIELDS,     $system.','.$category.'='.$valuename.' value=' .$intValue);
+            //echo 'es war ein string und wurde in int convertiert ';
+            break;
+
         }
 
         $result=curl_exec ($ch);
