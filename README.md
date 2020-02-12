@@ -2,7 +2,9 @@
 IP-Syncom PHP function to write data into influx-db
 
 ## Installation
-Please configure the influxDB Server IP, Port and the database name in the properties of the new device.
+- Install Module from git
+- Create new instance (Device) of influxwriter
+- Configure the InfluxDB Server IP, Port and the database name in the properties of the new device.
 
 ## Usage
 Module provides public function KC_write2influx($influxWriterModuleId, $id, $system, $category, $valuename)
