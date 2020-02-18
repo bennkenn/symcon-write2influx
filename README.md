@@ -21,3 +21,6 @@ KC_write2Influx($influxWriterModuleId, $id, $system, $category, $valuename);
 ```
 ## License
 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 
+
+## Thanks
+Special thanks to [SCS](https://www.symcon.de/forum/members/11737-ScsShowtec) who created the [php code](https://www.symcon.de/forum/threads/39713-HowTo-Analyse-und-Monitoring-mit-Grafana?p=382823#post382823) of the module
